@@ -1,0 +1,276 @@
+body
+{ 	
+	background-color: rgb(200,200,200);
+	display: flex;
+	align-content: space-around;
+	flex-direction: column;
+	justify-content: center;
+    align-items: stretch;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    text-shadow: 5px 5px 7px black;
+	 
+
+}
+
+h2
+{	
+	font-size: 60px;
+	font-family: "Verdana";
+	padding: 12px;
+    text-shadow: 2px 2px 4px black;
+    opacity: 90%;
+    text-align: center;
+    text-transform: upprcase;
+}
+h1 
+{
+	padding: 12px;
+	text-transform: uppercase;
+	color: white;
+	text-shadow: 5px 5px 7px black;
+	background-color: black;
+	box-shadow: 4px 4px 2px black;
+	text-align: right;
+	
+}
+	
+
+
+h3
+{	font-family: "Verdana";
+	padding: 12px;
+	text-transform: uppercase;
+	border: solid 8px;
+	border-color: black;
+	color: white;
+	text-shadow: 5px 5px 7px black;
+	background-color: black;
+	opacity: 70%;
+	box-shadow: 4px 4px 2px black;
+	border-radus: 5px;
+	width: 45%;
+	text-align: left;
+}
+.capa
+{
+	color: yellow;
+}
+.metier
+{
+	text-align: justify;
+	font-family: Verdana;
+}
+.civil
+{
+	text-align: center;
+	font-family: Verdana;
+}
+.bio
+{ 	font-family: Verdana, Comic sans ms;
+	color: #092774; 
+	font-size: large
+}
+.etablissement
+{
+	color: yellow;
+}
+	
+
+@font-face {
+	font-family: 'Quicksand-Regular'
+	src: url('Quicksand-Regular.otf') format ('otf');
+}
+
+* { 
+	color: white;
+	font-family: 'Quicksand', 'Times new roman';
+	text-align: justify;
+}
+
+.annee 
+{
+ font-weight: bold;
+ color: white;
+ text-decoration: underline;
+ text-transform: uppercase;
+ }
+
+
+
+.imageflottante
+{
+	float: right;
+}
+
+.dessous
+{
+	font-family: Verdana;
+	clear: both;
+	opacity: 100%;
+}
+img 
+{
+  box-shadow: 4px 4px 2px black;
+  position: absolute;
+  right: 110px;
+  top: 60px;
+  border-radius: 10px;
+
+ } 
+
+a:hover 
+{
+	text-decoration:underline;
+	color: grey;
+}
+a 
+{ 
+	color: black;
+	font-weight: bold;
+	 }
+
+header
+{	
+	font-family: "Verdana", sans serif;
+	opacity: 70%;
+	padding: 10px;
+	background-color: rgb(10,10,10);
+	box-shadow: 0px 3px 2px 3px black;
+ 	width: 60%;
+ 	margin: 10px;
+ 	padding-left: 20px
+ 	padding-right:20px;
+ 	overflow: auto;
+ 	margin-right: auto;
+ 	border-radius: 1px;
+
+
+
+}
+
+section
+{	
+	border-radius: 1px;
+	text-align: justify;
+	box-shadow: 1px 3px 2px 3px black;
+ 	width: 50%;
+ 	padding: 11px;
+ 	margin: 5px;	
+ 	min-width: 400px;
+ 	padding-right: 20px;
+ 	max-height: 300px;
+ 	overflow: auto;
+ 	background-color: rgb(0,0,0);
+ 	opacity: 90%;
+ 	font-family: "comic sans ms";
+
+ 	
+
+}
+
+.head
+{
+	background-image: url(images/head.jpg);
+	background-repeat:no-repeat;
+	background-position: center;
+	background-size: cover;
+}
+.stud
+{
+	background-image: url(images/school.jpg);
+	background-repeat:no-repeat;
+	background-position: center;
+	background-size: cover;
+}
+.capacites
+{
+	background-image: url(images/comp.jpg);
+	background-repeat:no-repeat;
+	background-position: center;
+	background-size: cover;
+}
+.comp
+{
+	background-image: url(images/educ.jpg);
+	background-repeat:no-repeat;
+	background-position: right;
+	background-size: cover;
+	
+	
+}
+
+.diplomes
+{
+	background-image: url(images/university.jpg);
+	background-repeat:no-repeat;
+	background-position: center;
+	background-size: cover;
+
+}
+.pro
+{
+	background-image: url(images/pro.jpg);
+	background-repeat:no-repeat;
+	background-position: center;
+	background-size: cover;
+}
+/* Navigation */
+
+nav
+{	
+	background-color: rgb(30,30,30);
+	font-family:"Verdana", "times", "serif";
+	background-position: center;
+    list-style: none;
+    display: flex;
+    text-transform: upercase;
+    margin: 5px;
+    padding: 5px;
+    margin-right: auto;
+ 	margin-left: auto;
+
+}
+
+nav li
+{	
+	box-shadow: 4px 4px 2px black;
+	font-family:"Arial", "times", "serif";
+	opacity: 90%;
+ 	border-width:1px;
+ 	border-style:solid 2x;
+ 	border-color:yellow;
+ 	border-radius: 5px;
+	background-color: rgb(35,35,35);
+	color: rgb(241,241,241);
+    margin-right: 10px;
+    text-align: center;
+}
+
+nav a
+{	display: flex;
+	font-family:"Arial", "times", "serif";
+	border:  5px;
+    font-size: 1.3em;
+    color: rgb(241,241,241);
+    text-shadow: 2px 2px 4px black;
+    padding-bottom: 3px;
+    text-decoration: none;
+    text-align: center;
+
+}
+
+nav a:hover
+{
+    color: gold;
+    border-bottom: 1px solid #111;
+}
+
+footer
+{
+	min-width: 100px
+	min-height: 400px;
+	background-color: black;
+	color: yellow;
+
+}
